@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px;
+}
+
+.home-header{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100vh;
+}
+
+.home-about{
+  /* border: 1px solid blue; */
+  /* width: 100%; */
+}
+
+.home-services{
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+.home-partners{
+  /* border: 1px solid yellow; */
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

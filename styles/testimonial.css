@@ -1,0 +1,150 @@
+.test {
+    background: #feead1;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.test-header{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.test-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tt-card{
+    /* border: 1px solid red; */
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 32%;
+}
+
+.tt-card-top{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.card-image{
+    /* border: 1px solid yellow; */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right:  20px;
+}
+
+.card-images{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.card-header{
+    margin: auto 0;
+}
+
+.card-header h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.card-header p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tt-card-content{
+    font-size: 14px;
+}
+
+.test-button {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .test-button-sign{
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 9px 12px;
+    margin-right: 18px;
+    color: black;
+  }
+  
+  .test-button-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+.test-bottom{
+    /* border: 1px solid blue; */
+}
+
+.card-image-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 40px auto 20px;
+}
+
+.tb-header{
+    font-size: 24px;
+    text-align: center;
+}
+
+.tb-header span{
+    color: #667185;
+}
+
+.tb-bottom{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 200px;
+    color:#AD6F07;
+
+}
+
+@media (max-width: 768px){
+    .test-header{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .test-top{
+        display: block;
+    }
+
+    .tt-card{
+        border-radius: 8px;
+        padding: 30px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .tb-header{
+        font-size: 16px;
+        
+    }
+
+    .tb-bottom{
+        font-size: 12px;
+        margin: 20px 0;
+    }
+
+}

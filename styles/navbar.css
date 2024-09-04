@@ -1,0 +1,137 @@
+/* styles/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 0.2px solid grey;
+  }
+
+  /* .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  } */
+
+  .navbar-brand h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .navbar-brand h3{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-align:end;
+    margin-top: -10px;
+  }
+
+  .nav-desktop{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .navbar-links {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .navbar-button {
+    background-color: #000;
+    color: white;
+    margin: auto 0;
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-button-sign{
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 5px 8px;
+    margin-right: 20px;
+    color: black;
+  }
+  
+  .navbar-button-text {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .nav-mobile{
+    display: none;
+  }
+
+  @media (max-width: 768px){
+    .navbar {
+      padding: 10px 40px 20px;
+    }
+
+    .nav-desktop{
+      display: none;
+    }
+
+    .nav-mobile{
+      display: block;
+    }
+
+    .dropdown{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      z-index: 20;
+      top: 70px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      padding: 30px 30px 1000px 30px;
+      gap: 16px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      
+      /* align-items: center; */
+    }
+
+    .dropdown-list{
+      margin: 0 auto;
+      font-size: 18px;
+    }
+
+
+    .navbar-button {
+      width: 50%;
+      margin: 0 auto;
+      padding: 7px;
+      border-radius: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+  
+    .navbar-button-sign{
+      padding: 5px 8px;
+      margin-right: 20px;
+    }
+    
+    .navbar-button-text {
+      font-size: 12px;
+      margin-right: 7px;
+    }
+
+
+
+  }
+  

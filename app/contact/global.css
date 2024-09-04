@@ -1,0 +1,168 @@
+.contact-header{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.contact-header h4{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact-header h2{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact-header h2 span{
+    color: #ffd347;
+}
+
+.contactForm {
+    background-color: #ffe4c4; /* Light beige background */
+    border-radius: 25px;
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup > input, .formGroup > textarea, .formGroup > select {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 14px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .formGroup > input[type="text"], 
+  .formGroup > input[type="email"], 
+  .formGroup > input[type="tel"] {
+    height: 50px;
+  }
+
+  .formGroup-phone{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+  }
+
+  
+  .phoneGroup {
+    display: flex;
+  }
+  
+  .phoneGroup .countryCode {
+    width: 9%;
+    height: 50px;
+    padding-left: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #f9f9f9;
+  }
+  
+  .phoneGroup .phoneInput {
+    width: 91%;
+    height: 50px;
+    padding-left: 14px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .mdEInput1 {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .mdEAnswer {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .mdEAnswer option {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  
+  .multiSelect {
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .textArea {
+    height: 120px;
+    border-radius: 20px;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .contact-button {
+    background-color: #000;
+    color: white;
+    margin-top: 30px;
+    padding: 8px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-button-sign{
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 7px 10px;
+    margin-right: 30px;
+    color: black;
+  }
+  
+  .contact-button-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  .contact-button:hover {
+    background-color: #333333;
+  }
+  
+  .arrow {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+@media (max-width: 768px){
+  .contactForm{
+    padding: 20px;
+  }
+}
+
+
+  
